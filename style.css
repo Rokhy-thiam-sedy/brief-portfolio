@@ -1,0 +1,265 @@
+html{
+    scroll-behavior: smooth;
+}
+body
+{
+    margin: 0 auto;
+    padding: 0;
+}
+header
+{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(181, 35, 19);
+    padding-top: 10px;
+}
+nav
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: right;
+    height: 80px;
+    width: 100%;
+    color: white ;
+}
+.name 
+{
+    width: 60%;
+}
+.link ul
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.link ul li
+{
+    list-style-type: none;
+    padding: 12px;
+    
+}
+.link ul li a
+{
+     color: white;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ul li a :hover
+{
+    transition: 2s;
+    color: red;
+}
+.photo
+{
+    margin: 60px;
+    padding: 1px;
+    width: 100px;
+    height: 800px;
+
+}
+h2
+{
+    text-align: center;
+    font-family: serif;
+    font-size: 40px;
+    padding-top: 10px;
+}
+.profil-contenair
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 0px;
+    padding-left: 130px;
+
+
+}
+.profil
+{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(211, 65, 49);
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+    padding-top: 20px;
+    
+}
+.profil img
+{
+    width: 300px;
+    height: 300px;
+    border-radius: 80px;
+}
+main
+{
+    width: 100%;
+    margin: 0 auto;
+
+}
+#apropos{
+    padding-top: 100px;
+
+}
+.apropos-contenair
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 0px;
+    padding-left: 130px;
+    border-radius: 50px;
+    text-align: center;
+
+}
+.apropos-box
+{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(211, 65, 49);
+    color: white;
+    border-radius: 50px;
+    border-radius: 50px;
+    text-align: center;
+    
+    
+}
+.formation-contenair {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 0px;
+    padding-left: 80px;
+    border-radius: 50px;
+    text-align: center;
+    grid-gap: 30px;
+}
+.formatino-box
+{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(211, 65, 49);
+    color: white;
+    border-radius: 50px;
+    border-radius: 50px;
+    text-align: center;
+}
+#formation
+{
+    padding-top: 100px;
+}
+.competence-contenair
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 0px;
+    padding-left: 80px;
+    border-radius: 50px;
+    text-align: center;
+    grid-gap: 30px;
+}
+.competence-box
+{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(211, 65, 49);
+    color: white;
+    border-radius: 50px;
+    border-radius: 50px;
+    text-align: center;
+}
+#competence
+{
+    padding-top: 100px;
+}
+.reference-contenair
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 0px;
+    padding-left: 80px;
+    border-radius: 50px;
+    text-align: center;
+    grid-gap: 30px;
+}
+.reference-box
+{
+    width: 300px;
+    height: 300px;
+    background-color:white;
+    color: black;
+    border-radius: 50px;
+    border-radius: 50px;
+    text-align: center;
+}
+#reference
+{
+    padding-top: 100px;  
+}
+#reference img
+{
+    width: 300px;
+    height: 300px;
+    border-radius: 80px;
+}
+.titre{
+    font-family: 'Oswald', sans-serif;
+    color: rgb(202, 54, 37);
+    text-align: center;
+    letter-spacing: 2px;
+    background-color: white;
+    margin-top: 2px;
+}
+.imge
+{
+    width: 300px;
+    height: 300px;
+    border-radius: 80px;
+}
+#footer{
+  color: white;
+  background-color: rgb(181, 35, 19);;
+  width: 100%;
+  height: 80px;
+  margin-top: 200px;
+  text-align: center;
+  display:inline-block;
+  align-items: center;
+}
+.reseau
+{
+    padding-top: 200px;
+    padding-left: 20px;
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction: row;
+    text-align: center;
+    float: left;
+    margin: 10px;
+    text-align: justify;
+}
+.imgs{
+    margin: 10px;
+    margin-top: -25%;
+    font-size: 25px;
+}
+.baspage{
+    text-align: right;
+
+   
+}
+.reseau a
+{
+    text-decoration: none;
+    color: white;
+    
+}
+.baspage
+{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-right: 50px;
+}
+.fa-instagram{
+    padding-left: 550px;
+    
+}
